@@ -8,7 +8,7 @@ Paths:
 
 ##Data settings
 Data_Settings:
-  class_sep_index: 99   #fill it with x. This means : rows 0 to x are class 1, rows x+1 to end are class 0
+  class_sep_index:      #fill it with a value x. This means : rows 0 to x are class 1, rows x+1 to end are class 0
   augment_data:         #fill it with False if you don't wish to apply data augmentation or True otherwise
 
 ## Logger parameters ##
