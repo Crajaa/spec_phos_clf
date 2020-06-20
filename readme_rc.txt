@@ -10,4 +10,4 @@ To run the main program :
         2- run_report.txt : text file containing summarized results
 3) If you wish to check your model's attributes, you can use python's pickle module: pickle.load('your model')
 
-/!\: The constructed data set is not available as the authors don't have the funder permission to share data.
+/!\: The constructed data set is not available as the authors don't have permission to share data.
