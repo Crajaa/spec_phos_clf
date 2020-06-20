@@ -1,0 +1,26 @@
+## Relevant paths ##
+Paths:
+  path_to_raw: 
+  path_to_augmented: ../data/02_augmented/
+  path_to_model_input: ../data/03_model_input/ 
+  model_name: model_object.model
+  path_to_results: ../results/
+
+##Data settings
+Data_Settings:
+  class_sep_index: 99   #fill it with x. This means : rows 0 to x are class 1, rows x+1 to end are class 0
+  augment_data:         #fill it with False if you don't wish to apply data augmentation or True otherwise
+
+## Logger parameters ##
+Logger:
+  name: PhosphateClassifier
+  log_file: ../logs/run.log
+
+
+#####################################################################################
+
+## General choices ##
+Choice:
+  generate_results_report: True
+
+
